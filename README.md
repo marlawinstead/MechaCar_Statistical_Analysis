@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Overview
-For this project, we are using R to help AutosRUs with their manufacturing process. We will review the production data and provide insights to help the manufacturing team. In this analysis, we will:
+For this project, we are using R to help AutosRUs with their manufacturing process. The MechaCar, AutosRus' newest prototype is having production issues. We will review the production data to provide insights that will help the manufacturing team. In this analysis, we will:
 
 -Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
 -Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots.

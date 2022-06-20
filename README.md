@@ -18,7 +18,6 @@ From the data above we can see that:
 
 
 ## Summary Statistics on Suspension Coils
-
 <img width="494" alt="Deliverable 2" src="https://user-images.githubusercontent.com/100978922/174684276-7f1eb27e-348b-4aff-b5db-f8c15c9394f2.png">
 
 
@@ -26,6 +25,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 
 ## T-Tests on Suspension Coils
+<img width="505" alt="Deliverable 3 pt1" src="https://user-images.githubusercontent.com/100978922/174684627-6228aa88-b156-45bc-8d8e-780643282f90.png">
+
 
 
 ## Study Design: MechaCar vs Competition

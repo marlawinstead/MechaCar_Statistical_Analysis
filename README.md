@@ -39,18 +39,18 @@ All manufacturing lots: the p-value is 0.06 which is above the assumed significa
 
 <img width="423" alt="Deliverable 3 pt2" src="https://user-images.githubusercontent.com/100978922/174685146-0b0468dc-886f-48c3-bd2e-e26e7992d303.png">
 
-Lot 1: has a true sample mean of 1500. 
-Lot 2: has a very close sample mean, at 1500.2. 
-Lot 3: has a sample mean of 1496.14.
-
+Lot 1: has a true sample mean of 1500 and a p-value of 1. The p-value is above the assumed significance level. Therefore, lot 1 is not substantially different from the population mean.
+Lot 2: has a very close sample mean, at 1500.2 and p-value of 0.61. The p-value is above the assumed significance level. Therefore, lot 2 is not substantially different from the population mean
+Lot 3: has a sample mean of 1496.14 and a p-value of 0.04. The p-value is below the assumed significance level. Therefore, lot 3 is substantially different from the population mean.
 
 
 ## Study Design: MechaCar vs Competition
-design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers. 
-2.	Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. 
-3.	In your description, address the following questions:
-•	What metric or metrics are you going to test?
-•	What is the null hypothesis or alternative hypothesis? 
-•	What statistical test would you use to test the hypothesis? And why? 
-•	What data is needed to run the statistical test?
 
+A study designed to compare performance of the MechaCar against performance of vehicles from other manufacturers:
+We already have metrics on vehicle length, vehicle weight, spoiler anlge, vehicle ground clearance, and AWD. Additional metrics to consider for comparison to other vehicles include: cost, fuel efficiency (city and highway), horsepower, maintenance cost, and safety rating.
+ 
+The metrics to test are: 
+The null hypothesis is: the MechaCar is priced appropriately based on its performance in relationship to similar cars from the competition.
+The alternative hypothesis is: the MechaCar is NOT priced appropriately based on its performance in relationship to similar cars from the competition.
+The statistical tests used would be: multiple linear regression 
+The data needed to perform these tests include: models from other manufacturers that are comparable to the MechaCar, the average price of each of these models, the average maintenance cost (per year) for each of these models, and each models fuel efficiency (both city and highwauy). The data collected should be over a five year period to gain an accurate representation of how AutosRUs has performed on cost in comparison to it's competing car manifacturers.

@@ -32,17 +32,16 @@ Lot Summary:  <img width="494" alt="Deliverable 2" src="https://user-images.gith
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. When we examine the lot summary as a whole, the current manufacturing data does meet this design specification. However, when the data is broken down by lot; we can see that lot 1 and lot 2 do meet this design specification, and lot 3 does not. Lot 1 and lot 2 have a variance of 0.98 and 7.47, respectively. Lot 3 shows a variance of 170.29.
 
-
 ## T-Tests on Suspension Coils
 <img width="431" alt="Deliverable 3" src="https://user-images.githubusercontent.com/100978922/174685134-04a6a7e6-58f3-41a2-97d9-4faea15ac8cd.png">
 
+All manufacturing lots: the p-value is 0.06 which is above the assumed significance level of 0.05. Based on this value, there is not enough evidence to reject the null hypothesis that every lot is statistically similar to the presumed population mean of 1500. We will perform a breakdown of every lot.
 
 <img width="423" alt="Deliverable 3 pt2" src="https://user-images.githubusercontent.com/100978922/174685146-0b0468dc-886f-48c3-bd2e-e26e7992d303.png">
 
-All manufacturing lots:
-Lot 1:
-Lot 2:
-Lot 3:
+Lot 1: has a true sample mean of 1500. 
+Lot 2: has a very close sample mean, at 1500.2. 
+Lot 3: has a sample mean of 1496.14.
 
 
 
